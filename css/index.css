@@ -281,6 +281,8 @@ header .logo {
 	.main-content .bottom-content p {
 		padding-right: 0;
 	}
+
+	
 }
 
 
@@ -290,18 +292,20 @@ header .logo {
     margin: 15px 0;
 }
 
+@media(max-width: 500px) {
+	.contact {
+		margin-left: 5%;
+	}
+}
+
+
 /* Footer Styles */
 
 footer {
     text-align: center;
-    margin: 40px 0 20px;
+		margin: 40px 0 20px;
 }
 
-@media(max-width: 500px) {
-	footer {
-		margin-left: 5%;
-	}
-}
 
 /* Services Styles */
 
